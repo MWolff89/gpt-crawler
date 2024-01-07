@@ -1,8 +1,9 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "https://www.thegreaterclub.co/",
+  match: "https://www.thegreaterclub.co/**",
+  maxPagesToCrawl: 1000,
+  outputFileName: "greater-club.json",
+  resourceExclusions: ['jpg', 'pdf']
 };
