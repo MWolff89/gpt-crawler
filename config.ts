@@ -1,9 +1,9 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.thegreaterclub.co/",
-  match: "https://www.thegreaterclub.co/**",
+  url: "https://flintex.com.sg/",
+  match: "https://flintex.com.sg/**",
   maxPagesToCrawl: 1000,
-  outputFileName: "greater-club.json",
+  outputFileName: "flintex.json",
   resourceExclusions: ['jpg', 'pdf']
 };
